@@ -1,0 +1,77 @@
+<!--
+Author: Colorlib
+Author URL: https://colorlib.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+{% load i18n %}
+{% load static %}
+
+<title>{% trans "Creative Colorlib SignUp Form" %}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    {% load static %}
+<link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css" media="all" />
+<!-- //Custom Theme files -->
+<!-- web font -->
+<link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+<!-- //web font -->
+</head>
+<body>
+    <!-- main -->
+    <div class="main-w3layouts wrapper">
+
+        <h1>{% trans "Create a FREE account" %}</h1>
+
+        <center><p class="_qu_acc">{% trans "Already have an account?" %} <a href="">{% trans "Log in" %}</a></p></center>
+        <div class="main-agileinfo">
+            <div class="agileits-top">
+
+                <span class="create_account">{% trans "Create an Account" %}</span> <br>
+
+                <form action="#" method="post">
+                    <input class="text" type="text" name="Username" placeholder="{% trans 'Username' %}" required="">
+                    <input class="text email" type="email" name="email" placeholder="{% trans 'Email' %}" required="">
+                    <input class="text" type="password" name="password" placeholder="{% trans 'Password' %}" required="">
+                    <input class="text firstname" type="text" name="firstname" placeholder="{% trans 'First Name' %}" required="">
+                    <input class="text lastname" type="text" name="lastname" placeholder="{% trans 'Last Name' %}" required="">
+
+
+                    <input type="submit" value="{% trans 'SIGNUP' %}">
+
+                </form>
+
+                <span class="create_account">{% trans "or Sign up with" %}</span><br>
+
+                <div class="social_media_login">
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-facebook"></a>
+                </div>
+
+            </div>
+        </div>
+
+        <ul class="colorlib-bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- //main -->
+</body>
+</html>

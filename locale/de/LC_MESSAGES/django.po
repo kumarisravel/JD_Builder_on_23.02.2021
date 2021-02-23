@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-23 18:46+0530\n"
+"PO-Revision-Date: 2021-02-23 18:55+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: .\authentication\urls.py:5
+msgid "^login/$"
+msgstr "Anmeldung"
+
+#: .\authentication\urls.py:8
+msgid "^logout/$"
+msgstr "Ausloggen"
+
+#: .\authentication\urls.py:11
+msgid "^logout-then-login/$"
+msgstr "Abmelden-dann-Anmelden"
+
+#: .\authentication\urls.py:14
+msgid "^login/register/$"
+msgstr "Anmeldung Registrieren"
+
+#: .\jd_builder\settings.py:99
+msgid "English"
+msgstr "Englisch"
+
+#: .\jd_builder\settings.py:100
+msgid "German"
+msgstr "Deutsche"
+
+#: .\templates\account\register.html:13
+msgid "Creative Colorlib SignUp Form"
+msgstr "Kreatives Colorlib-Anmeldeformular"
+
+#: .\templates\account\register.html:30
+msgid "Create a FREE account"
+msgstr "Erstelle einen kostenlosen Account"
+
+#: .\templates\account\register.html:32
+msgid "Already have an account?"
+msgstr "Sie haben bereits ein Konto?"
+
+#: .\templates\account\register.html:32
+msgid "Log in"
+msgstr "Anmeldung"
+
+#: .\templates\account\register.html:36
+msgid "Create an Account"
+msgstr "Ein Konto erstellen"
+
+#: .\templates\account\register.html:40
+msgid "Username"
+msgstr "Nutzername"
+
+#: .\templates\account\register.html:41
+msgid "Email"
+msgstr "Email"
+
+#: .\templates\account\register.html:42
+msgid "Password"
+msgstr "Passwort"
+
+#: .\templates\account\register.html:43
+msgid "First Name"
+msgstr "Vorname"
+
+#: .\templates\account\register.html:44
+msgid "Last Name"
+msgstr "Nachname"
+
+#: .\templates\account\register.html:47
+msgid "SIGNUP"
+msgstr "ANMELDEN"
+
+#: .\templates\account\register.html:51
+msgid "or Sign up with"
+msgstr "oder Anmelden mit"
+
+#: .\templates\registration\login.html:11
+msgid "Log-in"
+msgstr "Anmeldung"
+
+#: .\templates\registration\login.html:21
+msgid "JD Log-in"
+msgstr "JD-Anmeldung"
+
+#: .\templates\registration\login.html:24
+msgid "Enter Username"
+msgstr "Geben Sie den Benutzernamen ein"
+
+#: .\templates\registration\login.html:25
+msgid "Enter Password"
+msgstr ""
+
+#: .\templates\registration\login.html:26
+msgid "submit"
+msgstr ""
+
+#: .\templates\registration\login.html:30
+msgid "Register"
+msgstr ""
+
+#: .\templates\registration\login.html:30
+msgid "Forgot Password"
+msgstr ""
